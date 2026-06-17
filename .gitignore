@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.matplotlib-cache/
+
+# Local data, downloads, and generated documentation artifacts.
+ada_network_analysis/data.zip
+ada_network_analysis/data/sample.csv
+ada_network_analysis/data/data-2016.csv
+adv_prog_energy_consumption/downloads/
+adv_prog_energy_consumption/docs/_build/

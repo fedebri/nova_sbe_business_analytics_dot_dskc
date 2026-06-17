@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.matplotlib-cache/
+__pycache__/
+.DS_Store
+
+# Large local data files. Use Git LFS or external downloads for these.
+data.zip
+data/sample.csv
+data/data-2016.csv

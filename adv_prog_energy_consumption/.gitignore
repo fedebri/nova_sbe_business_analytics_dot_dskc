@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Data downloaded by EnergyData.download_file()
+downloads/
+
+# Local Sphinx build output
+docs/_build/
