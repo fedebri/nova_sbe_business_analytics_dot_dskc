@@ -4,6 +4,8 @@ This repository brings together selected academic and applied analytics projects
 
 The projects combine data analysis, machine learning, network science, and visualization mostly developed in Python. They are shared as a portfolio of practical work rather than production software.
 
+`ada_network_analysis` and `adv_prog_energy_consumption` were developed collaboratively, I'm thankful for the friends whose efforts made the work outstanding.
+
 ## Projects
 
 ### `ada_network_analysis`
@@ -18,14 +20,9 @@ Energy data analysis project based on the Our World in Data energy dataset. It i
 
 Exploratory analysis and forecasting notebook for Portugal's oral health voucher program (`cheques-dentista`), prepared as part of a Data Science fellowship portfolio at the NOVA SBE Data Science Knowledge Centre.
 
-## Notes
 
-- Some datasets are large and are intentionally excluded from Git where appropriate.
-- For the nice results of some of these projects I'm thankful to the colleagues who worked with me.
-- The code reflects academic and portfolio work and may require project-specific environments listed inside each folder.
 
 ## Institution
 
 NOVA School of Business and Economics  
-MSc in Business Analytics  
-Data Science Knowledge Centre
+Data Science Knowledge Centre (now Data Operations and Technology Center)
