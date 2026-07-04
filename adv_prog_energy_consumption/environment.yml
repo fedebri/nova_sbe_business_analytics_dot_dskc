@@ -1,0 +1,16 @@
+name: adv-prog-energy-consumption
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - requests
+  - scikit-learn
+  - seaborn
+  - sphinx
+  - statsmodels

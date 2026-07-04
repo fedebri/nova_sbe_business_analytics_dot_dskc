@@ -1,0 +1,14 @@
+name: ada-network-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
