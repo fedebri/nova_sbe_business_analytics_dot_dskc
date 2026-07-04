@@ -20,7 +20,13 @@ Energy data analysis project based on the Our World in Data energy dataset. It i
 
 Exploratory analysis and forecasting notebook for Portugal's oral health voucher program (`cheques-dentista`), prepared as part of a Data Science fellowship portfolio at the NOVA SBE Data Science Knowledge Centre.
 
+## Reproducibility
 
+Each project folder includes an `environment.yml` file with the Python dependencies needed for the local notebook or script workflow. Some large or downloaded datasets are excluded from Git and are documented in the relevant project README.
+
+## License
+
+This repository is shared publicly for portfolio and academic review. All rights are reserved unless explicit written permission is granted by the relevant copyright holders. See `LICENSE` and the project-level license files.
 
 ## Institution
 

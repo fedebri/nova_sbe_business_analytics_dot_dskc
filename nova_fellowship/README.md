@@ -7,6 +7,7 @@ The notebook analyzes public monthly data on Portugal's oral health voucher prog
 ## Contents
 
 - `analysis_saúde_oral.ipynb`: end-to-end notebook for data validation, descriptive analysis, monthly dynamics, time-series diagnostics, and predictive modeling.
+- `environment.yml`: Conda environment for the notebook workflow.
 - `LICENSE`: project license.
 
 ## Analysis Covered
@@ -19,10 +20,11 @@ The notebook analyzes public monthly data on Portugal's oral health voucher prog
 
 ## Running the Notebook
 
-Install the Python dependencies:
+Create the Conda environment:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
+conda env create -f environment.yml
+conda activate nova-fellowship
 ```
 
 The notebook expects the source CSV at:
@@ -36,8 +38,3 @@ Then open and run:
 ```bash
 jupyter notebook analysis_saúde_oral.ipynb
 ```
-
-## Notes
-
-- Keep raw or sensitive data out of Git unless it is explicitly intended for public release.
-- If the data file is not committed, include a source link or download instructions before publishing.

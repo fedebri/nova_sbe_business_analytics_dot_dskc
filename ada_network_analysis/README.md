@@ -9,6 +9,7 @@ This project analyzes U.S. flight operations using flight records, airport metad
 ## Contents
 
 - `us_flights_delay_prediction_clustering.ipynb`: end-to-end analysis notebook.
+- `environment.yml`: Conda environment for the local notebook workflow.
 - `data/airports.csv`: airport metadata.
 - `data/holidays.csv`: U.S. public holidays.
 - `data/sample.csv`: sample flight records used by default.
@@ -23,10 +24,11 @@ This project analyzes U.S. flight operations using flight records, airport metad
 
 ## Running the Notebook
 
-Install the Python dependencies:
+Create the Conda environment:
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn networkx seaborn jupyter
+conda env create -f environment.yml
+conda activate ada-network-analysis
 ```
 
 Then open and run:
@@ -40,3 +42,4 @@ The default notebook expects `data/sample.csv`, `data/airports.csv`, and `data/h
 ## Notes
 
 The notebook is intentionally pandas-first for public review and reproducibility. Spark, GraphFrames, and Colab snippets remain in commented cells so the original distributed-computing setup can be restored for larger datasets.
+
