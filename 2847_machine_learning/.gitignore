@@ -1,0 +1,99 @@
+# macOS and filesystem metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter runtime and local notebook state
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+.ipython/
+profile_default/
+nbconvert/
+*.nbconvert.ipynb
+
+# Local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+
+# Secrets, credentials, and local config
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.kdbx
+*secret*
+*secrets*
+*credential*
+*credentials*
+*token*
+*apikey*
+*api_key*
+*.local
+local_settings.*
+
+# Data files: avoid committing private, licensed, or derived datasets
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Generated outputs and reports
+outputs/
+output/
+artifacts/
+models/
+checkpoints/
+reports/
+figures/
+plots/
+*.log
+*.tmp
+*.bak
+
+# Large or externally licensed references
+*.pdf
+
+# IDE and editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

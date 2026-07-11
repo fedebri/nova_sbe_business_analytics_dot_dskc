@@ -1,0 +1,16 @@
+name: hm-recommender
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - pyarrow
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
