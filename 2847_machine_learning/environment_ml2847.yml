@@ -2,15 +2,21 @@ name: hm-recommender
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
   - ipykernel
+  - joblib
   - jupyterlab
+  - matplotlib
+  - nbformat
   - notebook
   - numpy
   - pandas
-  - pyarrow
-  - scipy
-  - scikit-learn
-  - matplotlib
-  - seaborn
+  - pillow
   - plotly
+  - pyarrow
+  - pytest
+  - python=3.11
+  - pytorch
+  - scikit-learn>=1.4
+  - scipy
+  - seaborn
+  - torchvision

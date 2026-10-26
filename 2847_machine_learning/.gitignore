@@ -84,6 +84,8 @@ checkpoints/
 reports/
 figures/
 plots/
+results/
+*.partial
 *.log
 *.tmp
 *.bak
