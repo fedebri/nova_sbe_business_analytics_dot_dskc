@@ -84,7 +84,19 @@ checkpoints/
 reports/
 figures/
 plots/
-results/
+# Publish only the reviewed aggregate snapshot, not local run artifacts.
+/results/*
+!/results/published/
+/results/published/*
+!/results/published/initial_iteration/
+/results/published/initial_iteration/*
+!/results/published/initial_iteration/README.md
+!/results/published/initial_iteration/metrics.json
+!/results/published/initial_iteration/paired_comparisons.json
+!/results/published/initial_iteration/cohorts.json
+!/results/published/initial_iteration/runtime.json
+!/results/published/initial_iteration/provenance.json
+!/results/published/initial_iteration/overview.png
 *.partial
 *.log
 *.tmp
@@ -92,6 +104,15 @@ results/
 
 # Large or externally licensed references
 *.pdf
+
+# Earlier coursework notebooks and notes stay local; active diagnostics are in
+# notebooks/. Existing tracked files still require manual publication selection.
+/ML_final_project_eda.ipynb
+/ML_final_project_model.ipynb
+/archive/*.ipynb
+/archive/notes.txt
+/archive/chapters/
+/archive/other_notebooks/
 
 # IDE and editor state
 .vscode/

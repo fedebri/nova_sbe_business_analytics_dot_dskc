@@ -20,3 +20,4 @@ dependencies:
   - scipy
   - seaborn
   - torchvision
+  - xgboost>=3.0,<4
