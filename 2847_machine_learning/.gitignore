@@ -107,7 +107,6 @@ plots/
 
 # Earlier coursework and archived experiments stay local; diagnostics are in
 # notebooks/. Existing tracked files still require manual publication selection.
-/ML_final_project_eda.ipynb
 /ML_final_project_model.ipynb
 /archive/
 
