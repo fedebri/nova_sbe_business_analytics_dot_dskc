@@ -2,6 +2,7 @@ name: hm-recommender
 channels:
   - conda-forge
 dependencies:
+  - implicit=0.7.2
   - ipykernel
   - joblib
   - jupyterlab
@@ -20,4 +21,3 @@ dependencies:
   - scipy
   - seaborn
   - torchvision
-  - xgboost>=3.0,<4

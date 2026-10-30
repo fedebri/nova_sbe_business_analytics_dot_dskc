@@ -105,14 +105,11 @@ plots/
 # Large or externally licensed references
 *.pdf
 
-# Earlier coursework notebooks and notes stay local; active diagnostics are in
+# Earlier coursework and archived experiments stay local; diagnostics are in
 # notebooks/. Existing tracked files still require manual publication selection.
 /ML_final_project_eda.ipynb
 /ML_final_project_model.ipynb
-/archive/*.ipynb
-/archive/notes.txt
-/archive/chapters/
-/archive/other_notebooks/
+/archive/
 
 # IDE and editor state
 .vscode/
@@ -120,3 +117,4 @@ plots/
 *.swp
 *.swo
 *~
+
